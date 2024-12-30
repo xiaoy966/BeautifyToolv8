@@ -1,0 +1,6 @@
+#!/bin/bash
+if [ -z "$1" ]; then
+    echo "错误"
+    exit 1
+fi
+xdg-open "$1"
